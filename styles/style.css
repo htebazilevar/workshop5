@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+@font-face {
+    font-family: firaGORegular;
+    src: url(FiraGO-regular.ttf);
+}
+body{
+    background-color: #000;
+}
+header{
+    width: 100%;
+    height: 100px;
+    border-bottom: solid #c3c3c3;
+}
+
+h1{
+    font-family: FiraGOregular;
+    color: #e7e7e7;
+    font-size: 20px;
+    padding: 38px 60px;
+}
+h1 a{
+    padding: 5px 10px;
+    color: #e7e7e7;
+}
+header li{
+    float: left;
+    margin-right: 20px;
+}
+nav{
+    margin-top: -60px;
+    margin-left: 800px;
+}
+.satauri{
+    font-family: FiraGOregular;
+    font-size: 128px;
+    letter-spacing: 100px;
+    color: #fff;
+    text-align: center;
+    margin-top: 38px;
+}
+.first{
+    font-family: FiraGOregular;
+    font-size: 20px;
+    color: #fff;
+    padding: 140px 130px 100px 60px;
+    float: left;
+    
+}
+.second{
+    font-family: FiraGoregular;
+    font-size: 20px;
+    color: #fff;
+    padding: 140px 130px 100px 60px;
+    float: left;
+}
+.third{
+    font-family: FiraGoregular;
+    font-size: 20px;
+    color: #fff;
+    padding: 140px 130px 100px 60px;
+}
+.third p{
+    padding-bottom: 20px;
+}
+.line{
+    width: 100%;
+    border-bottom:solid #c3c3c3;
+}
+article{
+    margin: 50px 14px 100px 10px;
+    float: left;
+}
+h2{
+    padding-bottom: 20px;
+}
+h2 a{
+    font-family: FiraGoregular;
+    font-size: 20px;
+    font-weight: 100;
+    color: #fff;
+}
+article div{
+    width: 464px;
+    height: 628px;
+    overflow: hidden;
+}
+.imgfirst img{
+    width: 100%;
+}
+.img2 img{
+    width: 464px;
+    height: 628px;
+    object-fit: cover;
+}
+.img3 img{
+    width: 464px;
+    height: 628px;
+    object-fit: cover;
+}
+footer{
+    width: 100%;
+    height: 200px;
+    border-top: solid #c3c3c3;
+    margin-top: 100px;
+    padding: 50px 112px;
+    clear: left;
+}
+footer div{
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    float: left;
+    padding-right: 16px;
+}
+footer img{
+    width: 100%;
+}
+footer a{
+    font-family: FiraGoregular;
+    font-size: 30px;
+    color: #fff;
+    letter-spacing: 4px;
+    line-height: 40px;
+}
